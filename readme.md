@@ -222,8 +222,8 @@ The project uses a **multi-stage build**:
 ## Future Enhancements
 
 🔹 **Support for multiple users** with individual timestamps  
-🔹 **More advanced filename matching** and metadata storage
-🔹 VLC client
+🔹 **More advanced filename matching** and metadata storage  
+🔹 **VLC** client
 
 ---
 
