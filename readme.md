@@ -44,6 +44,7 @@ You need to have curl installed as well.
 1. Copy `upload_time.lua` to your MPV scripts directory:
    - **Linux/macOS**: `~/.config/mpv/scripts/`
    - **Windows**: `%APPDATA%\mpv\scripts\`
+     - On Windows it may be necessary to indicate the ".exe" extension (curl.exe) 
 
 ### 3. Set Up the Golang Server
 
@@ -222,6 +223,7 @@ The project uses a **multi-stage build**:
 
 🔹 **Support for multiple users** with individual timestamps  
 🔹 **More advanced filename matching** and metadata storage
+🔹 VLC client
 
 ---
 
