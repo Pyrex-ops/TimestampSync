@@ -339,7 +339,7 @@ func main() {
 	defaultUser := "admin"
 	defaultPass := "password"
 	// Warn if default credentials are being used
-	if envUser == "" || envPass == "" || envUser == defaultUser || envPass == defaultPass {
+	if envUser == "" || envPass == "" || envPass == defaultPass {
 		log.Warn("Using default credentials! Set BASIC_AUTH_USER and BASIC_AUTH_PASS environment variables.")
 		envUser = defaultUser
 		envPass = defaultPass
